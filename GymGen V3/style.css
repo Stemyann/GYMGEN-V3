@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'LEMONMILK';
+    src: url("LEMONMILK-Regular.otf");
+}
+
+body {
+    font-family: 'LEMONMILK', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #f2f5f8, #dbf0ff);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(30, 30, 31, 0.2);
+    transition: transform 0.25s;
+}
+
+.container:hover {
+    transform: scale(1.01);
+}
+
+h1 {
+    font-size: 24px;
+    color: #234567;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #234567;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1.5px solid #aabcc8;
+    color: #0d1924;
+    outline: none;
+    font-size: 18px;
+    background: #e8f2f7b6;
+    transition: border 0.3s ease-in-out;
+}
+
+select:focus, input:focus {
+    border-color: #419dda;
+}
+
+option {
+    font-size: 18px;
+    color: #0d1924;
+    background-color: #e8f2f7b6;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(160deg, #56a1d4, #2b96de);
+    color: hsl(216, 33%, 96%);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 10px rgba(36, 90, 140, 0.5);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #3789c0, #1f7cba);
+    transform: translateY(-1.80px);
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+#resultat {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    background: #f8f9fa;
+    color: #0e111b;
+    border-radius: 8px;
+    border: 1px solid #d1d8e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20);
+}
+
+.input-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 10px 0 20px;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    flex: 1;
+    min-width: 30%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+    color: #234567;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid #aabcc8;
+    font-size: 18px;
+    background: #e8f2f7b6;
+    color: #0d1924;
+}
+
